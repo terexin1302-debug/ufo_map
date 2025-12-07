@@ -5,8 +5,7 @@
 
 	  const map = new L.map('map', mapOptions);
 
-	  const basemap1 = new L.TileLayer('https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',{attribution: '&copy; <a href="https://cartodb.com/basemaps/">CartoDB</a> Contributors'});
-
+	  const basemap1 = new L.TileLayer('https://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png',{attribution: '&copy; <a href="https://cartodb.com/basemaps/">CartoDB</a> Contributors'}); 
 	  const basemap2 = new L.TileLayer('https://tile.opentopomap.org/{z}/{x}/{y}.png',{attribution: '&copy; <a href="https://opentopomap.org/about#datenstand">OpenTopoMap</a> Contributors'});
 
 	  map.addLayer(basemap1);
