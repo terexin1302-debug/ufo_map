@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+   <head>
+	 <title>Карта Уральского ФО</title>
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.0/dist/leaflet.css"/>
+	 <script src="https://unpkg.com/leaflet@1.9.0/dist/leaflet.js"></script>
+	 <script src="https://unpkg.com/leaflet-choropleth/dist/choropleth.js"></script>
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet-groupedlayercontrol/dist/leaflet.groupedlayercontrol.min.css" />
+	 <script src="https://unpkg.com/leaflet-groupedlayercontrol/dist/leaflet.groupedlayercontrol.min.js"></script>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	 <link href="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/leaflet.fullscreen.css" rel="stylesheet" />
+	 <script src="https://api.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v1.0.1/Leaflet.fullscreen.min.js"></script>
+	 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css">
+	 <script src="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.js"></script>
+	 <link rel="stylesheet" href="https://unpkg.com/leaflet-search/dist/leaflet-search.min.css" />
+	 <script src="https://unpkg.com/leaflet-search/dist/leaflet-search.min.js"></script>
+	 <link rel="stylesheet" href="style.css">
+   </head>
+   
+   <body>
+	  <div id = "header">
+
+		<h1>Карта Уральского федерального округа</h1>
+	  </div>
+
+	  <div id = "main-container">
+	  
+		<div id = "map-container">
+
+			<div id = "map"></div>
+		</div>
+		
+
+		<div id = "text-container">
+
+			<h2>Уральский федеральный округ</h2>
+
+			<p>
+				Уральский федеральный округ (ЦФО) — один из восьми федеральных округов Российской Федерации. 
+				Образован указом президента РФ от 13 мая 2000 года. Административный центр — город Екатеринбург.
+			</p>
+			
+			<h2>Основные характеристики</h2>
+			<p>Уральский федеральный округ (УрФО) занимает обширную территорию площадью 1,788 млн км², что составляет примерно 10,5% от общей площади России. При населении около 12,6 млн человек округ отличается невысокой плотностью заселения. Рельеф УрФО крайне разнообразен и охватывает три основные географические зоны: с севера на юг протянулись средневысотные Уральские горы, служащие водоразделом между Европой и Азией; на востоке простирается огромная плоская и местами заболоченная Западно-Сибирская низменность; на западе расположены предгорья и равнинные участки Приуралья.
+			</p>
+			<p>
+				Внешние границы: на юге с Казахстаном. 
+				Внутренние границы: на западе с Северо-Западным,на юго-западе с Приволжским, на востоке с Сибирским федеральными округами.
+			</p>
+		</div>
+	  
+	  </div>
+	  
+
+	  <div id = "footer">
+		Карта подготовлена преподавателем М.Е. Терехиным
+
+		МИИГАиК, 2025
+	  </div>
+	  
+		
+	  <script src="script.js"></script>
+   </body>
+</html>
